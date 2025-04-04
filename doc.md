@@ -1,0 +1,2 @@
+<a href="https://www.flaticon.com/free-icons/brazil" title="brazil icons">Brazil icons created by Hight Quality Icons - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/united-states" title="united states icons">United states icons created by Hight Quality Icons - Flaticon</a>

@@ -1,0 +1,42 @@
+---
+import "../styles/global.css";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Home</title>
+	</head>
+	<body class="font-bigshoulders-regular">
+			<div id="content" class="bg-yellow-500 grid grid-cols-[1fr_2fr] h-[100vh]">
+
+                <div id="menu" class="font-bigshoulders-semibold flex flex-col gap-4 self-end mb-[6vh]">
+                    
+                    <a href=""><h1 class="px-2 center text-5xl">ulysses alves</h1></a>
+                    <ul class="text-xl flex flex-4 flex-col">
+                        <li class="px-3 py-1"><a href="/">Home</a></li>
+                        <li class="px-3 py-1"><a href="/arte">Arte</a></li>
+                        <li class="px-3 py-1"><a href="/dev">Projetos Dev</a></li>
+                        <li class="px-3 py-1"><a href="/extra">Extra</a></li>
+                    </ul>	
+                </div>
+    
+                <div id="content-grid" class="font-bigshoulders-semibold bg-white grid content-center">
+					<div id="abilities" class="flex ">
+						<div id="Dev" class=" h-[70vh] w-[25vw] hover:invert-100 relative group">
+							<a href="/dev"><img class="object-none h-[70vh] w-[30vw] " src="/public/imgs/dev-bg.jpg" alt=""></a>
+							<h2 class="text-white text-5xl  absolute top-[90%] left-[50%] -translate-1/2 group-hover:top-[85%] group-hover:ease-in">Dev</h2>
+						</div>
+						<div id="Arte" class=" h-[70vh] w-[25vw] relative group">
+							<a href="/arte"><img class=" h-[70vh] w-[30vw] brightness-60 hover:brightness-100" src="/public/sketches/scarecrow.jpg" alt=""></a>
+							<h2 class="text-white text-5xl  absolute top-[90%] left-[50%] -translate-1/2 group-hover:top-[85%] group-hover:ease-in">Arte</h2>
+						</div>
+						<div id="Extra" class=" h-[70vh] w-[25vw] relative group">
+							<a href="/extra"><img class="object-none h-[70vh] w-[30vw] brightness-60 hover:brightness-100 hover:*:top-[75%]" src="/public/imgs/poloroid-model.png" alt=""></a>
+							<h2 class="text-white text-5xl  absolute top-[90%] left-[50%] -translate-1/2 group-hover:top-[85%] group-hover:ease-in">Extra</h2>
+						</div>
+					</div>  
+                </div>
+            </div>
+	</body>
+</html>

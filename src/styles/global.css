@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+    --font-barlow-thin: 'Barlow-Thin', 'sans-serif';
+    --font-barlow-light: 'Barlow-Light', 'sans-serif';
+    --font-barlow-medium: 'Barlow-Medium', 'sans-serif';
+    --font-barlow-semibold: 'Barlow-SemiBold', 'sans-serif';
+    --font-bigshoulders-regular: 'BigShoulders-Regular', 'sans-serif';
+    --font-bigshoulders-semibold: 'BigShoulders-Semi-Bold', 'sans-serif';
+    --font-bigshoulders-extralight: 'BigShoulders-ExtraLight', 'sans-serif';
+}
+
+@font-face {
+    font-family: 'BigShoulders-Regular';
+    src: url('/public/fonts/BigShoulders-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'BigShoulders-Semi-Bold';
+    src: url('/public/fonts/BigShoulders-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'BigShoulders-ExtraLight';
+    src: url('/public/fonts/BigShoulders-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: 'Barlow-Thin';
+    src: url('/public/fonts/Barlow-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'Barlow-Light';
+    src: url('/public/fonts/Barlow-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Barlow-Medium';
+    src: url('/public/fonts/Barlow-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Barlow-SemiBold';
+    src: url('/public/fonts/Barlow-SemiBold.ttf');
+}

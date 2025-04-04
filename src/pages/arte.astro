@@ -1,0 +1,61 @@
+---
+import "../styles/global.css";
+---
+
+<html lang="en">
+	<head>
+        <meta charset="UTF-8">
+		<title>Arte</title>
+	</head>
+	<body class="font-bigshoulders-regular">
+		<div id="layout" class="w-[55vw] h-[100vh] mx-auto">
+			<div id="menu" class="pt-8">
+				<div class="flex flex-row justify-between items-end">
+					<a href="/"><h1 class="px-3 py-1 text-5xl">ulysses alves</h1></a>
+					<ul class="text-xl flex flex-row">
+						<li class="px-3 py-1"><a href="/">Home</a></li>
+						<li class="px-3 py-1"><a href="/arte">Arte</a></li>
+						<li class="px-3 py-1"><a href="/extra">Blog</a></li>
+						<li class="px-3 py-1"><a href="/contato">Contato</a></li>
+					</ul>	
+				</div>
+				<hr>
+			</div>
+			<div id="main-content" class="font-bigshoulders-semibold">
+				<div class="mt-8 mb-8">
+					<img id="zoom-high-res" class="m-auto w-[40vw] object-fit" src="/public/imgs/2d-art-done/agasf.jpg" alt="">
+					<p class="m-auto w-[40vw] text-xs">random 06/03/2025</p>
+				</div>
+				<div class="mt-8 mb-8">
+					<img id="zoom-high-res" class="m-auto w-[40vw] object-fit" src="/public/imgs/3d-models/poloroid-model.jpg" alt="">
+					<p class="m-auto w-[40vw] text-xs">poloroid model on a table 20/02/2025</p>
+				</div>
+                <div class="mt-8 mb-8">
+					<img id="zoom-high-res" class="m-auto w-[40vw] object-fit" src="/public/imgs/2d-art-done/turtle.jpg" alt="">
+					<p class="m-auto w-[40vw] text-xs">turtle in darkness 04/08/2023</p>
+				</div>
+				<div class="mt-8 mb-8">
+					<img id="zoom-high-res"  class="m-auto w-[40vw] object-fit " src="/public/imgs/2d-art-done/newngmi1.jpg" alt="">
+					<p class="m-auto w-[40vw] text-xs">you're not special 28/06/2021</p>
+				</div>
+			</div>
+			<div id="footer">
+				<hr>
+				<div id="social-media" class="">
+					<ul class="flex flex-row justify-end">
+						<li class="px-3 py-1"><a href="">Instagram</a></li>
+						<li class="px-3 py-1"><a href="">Youtube</a></li>
+						<li class="px-3 py-1"><a href="">Music</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="imageModal" class="hidden fixed inset-0 flex items-center justify-center bg-black/90 z-50">
+			<span id="closeModal" class="absolute top-4 right-6 text-white text-4xl cursor-pointer hover:text-red-500">X</span>
+			<img id="fullImage" class="max-w-[90%] max-h-[100%] rounded-lg shadow-lg">
+		</div>
+		<script>
+			import "../scripts/img-zoom.js";
+		</script>
+	</body>
+</html>

@@ -1,0 +1,59 @@
+---
+import "../styles/global.css";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Projetos Dev</title>
+	</head>
+	<body class="font-bigshoulders-regular">
+		<div id="content" class="bg-yellow-400 grid grid-cols-[1fr_2fr]">
+
+			<div id="menu" class="font-bigshoulders-semibold flex flex-col gap-4 self-end mb-[6vh]">
+				
+				<a href=""><h1 class="px-2 center text-5xl">ulysses alves</h1></a>
+				<ul class=" text-xl flex flex-4 flex-col">
+					<li class="px-3 py-1"><a href="/">Home</a></li>
+					<li class="px-3 py-1"><a href="/arte">Arte</a></li>
+					<li class="px-3 py-1"><a href="/dev">Projetos Dev</a></li>
+					<li class="px-3 py-1"><a href="/extra">Extra</a></li>
+				</ul>	
+			</div>
+
+			<div id="content-grid" class="grid grid-cols-[1fr_1fr] grid-rows-[0.2fr_1fr_1fr] overflow-x-hidden overflow-y-scroll overscroll-contain bg-black w-[80vw] h-[100vh]">
+
+				<!--<div id="welcome" class="bg-yellow-400 border-black col-span-2 h-full w-full">
+					<p class="text-center text-2xl m-[1vw]">Bem-vindo à minha página de projetos</p>
+					<p class="text-lg m-[1vw]">Passe o mouse sobre qualquer projeto para ver quais tecnologias foram usadas para construir esse projeto. 
+						<br> Clique para ler mais sobre a criação de um projeto.
+					</p>
+				</div> -->
+
+					<div class="bg-yellow-400 text-black p-4 w-[35vw] h-[60vh] m-[1vw]">
+						<h1 class="text-center text-2xl">Paranagua Weather</h1>
+						<img class=" w-[35vw] object-fit" src="/public/imgs/paranagua-weather.jpg" alt="">
+						<p class="text-xs">Source: <a href="https://open-meteo.com/">Open-meteo API</a></p>
+						<p class="text-center text-lg m-3">Um site de previsão do tempo que criei para minha cidade natal, com o objetivo de aprender como obter dados de uma API.</p>
+						
+					</div>
+					<div class="bg-yellow-400 text-black p-4 w-[35vw] h-[60vh] m-[1vw] grid grid-cols-[2fr_1fr] grid-rows-[0.2fr-1fr]">
+						<h1 class="text-center text-2xl col-span-2 row-span-1">TypingDojo</h1>
+						<img class=" w-[25vw] h-[50vh] object-contain" src="/public/imgs/typing-dojo.jpg" alt="">
+						<p class="text-center text-lg m-3">Um aplicativo que criei para aprender a digitar mais rapidamente usando um teclado japonês de 12 teclas.</p>
+					</div>
+					<div class="bg-yellow-400 text-black p-4 w-[35vw] h-[60vh] m-[1vw]">
+						<h1 class="text-center text-2xl">Editor de Texto</h1>
+						<img class=" w-[35vw] object-fit" src="/public/imgs/" alt="">
+						<p class="text-center text-lg m-3">Um aplicativo editor de texto que criei para aprender programação de baixo nível.</p>
+					</div>
+					<div class="bg-yellow-400 text-black p-4 w-[35vw] h-[60vh] m-[1vw]">
+						<h1 class="text-center text-2xl">Forever Alone Pong</h1>
+						<img class=" w-[35vw] object-fit" src="/public/imgs/forever-alone-pong.jpg" alt="">
+						<p class="text-center text-lg m-3"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
